@@ -5980,7 +5980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 21.082 48.26 90)
 			(effects
 				(font
@@ -6048,7 +6048,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 125.73 85.852 90)
 			(effects
 				(font
@@ -6250,7 +6250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J"
 			(at 51.7652 100.33 0)
 			(effects
 				(font
@@ -6317,7 +6317,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 183.642 34.29 90)
 			(effects
 				(font
@@ -6387,7 +6387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J"
 			(at 112.7252 96.52 0)
 			(effects
 				(font
@@ -6456,7 +6456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TVS_LESD5D5.0CT1G"
+		(property "Footprint" "LESD5D5.0CT1G-footprint:TVS_LESD5D5.0CT1G"
 			(at 115.57 54.61 0)
 			(effects
 				(font
@@ -6646,7 +6646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SW_PTS810_SJM_250_SMTR_LFS"
+		(property "Footprint" "PTS810_SJM_250_SMTR_LFS-footprint:SW_PTS810_SJM_250_SMTR_LFS"
 			(at 81.28 139.7 0)
 			(effects
 				(font
@@ -6824,7 +6824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J"
 			(at 186.3852 54.61 0)
 			(effects
 				(font
@@ -6891,7 +6891,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 129.54 95.25 0)
 			(effects
 				(font
@@ -6961,7 +6961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J"
 			(at 249.8852 50.8 0)
 			(effects
 				(font
@@ -7095,7 +7095,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SK6812"
+		(property "Footprint" "SK6812-footprint:LED_SK6812"
 			(at 236.22 139.7 0)
 			(effects
 				(font
@@ -7292,7 +7292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TVS_LESD5D5.0CT1G"
+		(property "Footprint" "LESD5D5.0CT1G-footprint:TVS_LESD5D5.0CT1G"
 			(at 111.76 54.61 0)
 			(effects
 				(font
@@ -7481,7 +7481,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 98.552 138.43 90)
 			(effects
 				(font
@@ -7551,7 +7551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J"
 			(at 54.3052 152.4 0)
 			(effects
 				(font
@@ -7619,7 +7619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOD3715X145N"
+		(property "Footprint" "1N5819HW-7-F-footprint:SOD3715X145N"
 			(at 107.95 35.56 0)
 			(effects
 				(font
@@ -7809,7 +7809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT229P700X180-4N"
+		(property "Footprint" "AMS1117-3.3-footprint:SOT229P700X180-4N"
 			(at 71.12 90.17 0)
 			(effects
 				(font
@@ -8024,7 +8024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J"
 			(at 131.7752 55.88 0)
 			(effects
 				(font
@@ -8094,7 +8094,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J"
 			(at 96.2152 151.13 0)
 			(effects
 				(font
@@ -8362,7 +8362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J"
 			(at 237.1852 50.8 0)
 			(effects
 				(font
@@ -8495,7 +8495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GCT_USB4105-GF-A"
+		(property "Footprint" "USB4105-GF-A-footprint:GCT_USB4105-GF-A"
 			(at 71.12 45.72 0)
 			(effects
 				(font
@@ -8868,7 +8868,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 54.102 135.89 90)
 			(effects
 				(font
@@ -8936,7 +8936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XCVR_ESP32-S3-WROOM-1-N16R2"
+		(property "Footprint" "ESP32-S3-WROOM-1-N16R2-footprint:XCVR_ESP32-S3-WROOM-1-N16R2"
 			(at 215.9 72.39 0)
 			(effects
 				(font
@@ -9277,7 +9277,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SW_PTS810_SJM_250_SMTR_LFS"
+		(property "Footprint" "PTS810_SJM_250_SMTR_LFS-footprint:SW_PTS810_SJM_250_SMTR_LFS"
 			(at 39.37 140.97 0)
 			(effects
 				(font
@@ -9455,7 +9455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J"
 			(at 101.2952 96.52 0)
 			(effects
 				(font
@@ -9525,7 +9525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J"
 			(at 39.0652 100.33 0)
 			(effects
 				(font
@@ -9661,7 +9661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 102.362 54.61 90)
 			(effects
 				(font
@@ -9728,7 +9728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TVS_LESD5D5.0CT1G"
+		(property "Footprint" "LESD5D5.0CT1G-footprint:TVS_LESD5D5.0CT1G"
 			(at 119.38 54.61 0)
 			(effects
 				(font
