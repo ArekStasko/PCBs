@@ -1,0 +1,68 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+LED_SK6812
+$EndINDEX
+$MODULE LED_SK6812
+Po 0 0 0 15 00000000 00000000 ~~
+Li LED_SK6812
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -0.46 -3.635 1 1 0 0.05 N V 21 "LED_SK6812"
+T1 0.175 3.635 1 1 0 0.05 N V 21 "VAL**"
+DS -2.5 -2.5 2.5 -2.5 0.127 27
+DS 2.5 -2.5 2.5 2.5 0.127 27
+DS 2.5 2.5 -2.5 2.5 0.127 27
+DS -2.5 2.5 -2.5 -2.5 0.127 27
+DS -2.5 -2.67 2.5 -2.67 0.127 21
+DS -2.5 2.67 2.5 2.67 0.127 21
+DS -2.5 -0.53 -2.5 0.53 0.127 21
+DS 2.5 -0.53 2.5 0.53 0.127 21
+DS -3.45 -2.75 3.45 -2.75 0.05 26
+DS 3.45 -2.75 3.45 2.75 0.05 26
+DS 3.45 2.75 -3.45 2.75 0.05 26
+DS -3.45 2.75 -3.45 -2.75 0.05 26
+DC -3.85 -1.73 -3.75 -1.73 0.2 21
+DC -3.85 -1.73 -3.75 -1.73 0.2 27
+DP 0 0 0 0 3 0.01 27
+Dl 2.5 2.5
+Dl 1.5 2.5
+Dl 2.5 1.5
+$PAD
+Sh "1" R 1.5 1.5 0 0 0
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -2.45 -1.6
+$EndPAD
+$PAD
+Sh "2" R 1.5 1.5 0 0 0
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -2.45 1.6
+$EndPAD
+$PAD
+Sh "3" R 1.5 1.5 0 0 0
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 2.45 1.6
+$EndPAD
+$PAD
+Sh "4" R 1.5 1.5 0 0 0
+At SMD N 00088000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 2.45 -1.6
+$EndPAD
+$EndMODULE LED_SK6812
