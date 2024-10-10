@@ -414,6 +414,175 @@
 				)
 			)
 		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers hide)
 			(pin_names
@@ -725,7 +894,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 38.1) (xy 101.6 38.1)
+			(xy 86.36 38.1) (xy 101.6 38.1)
 		)
 		(stroke
 			(width 0)
@@ -775,7 +944,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 43.18) (xy 88.9 43.18)
+			(xy 86.36 43.18) (xy 88.9 43.18)
 		)
 		(stroke
 			(width 0)
@@ -795,16 +964,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 46.99) (xy 38.1 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf682fe3-0712-46b3-88d0-cca08de30f12")
-	)
-	(wire
-		(pts
 			(xy 88.9 43.18) (xy 88.9 49.53)
 		)
 		(stroke
@@ -815,7 +974,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 38.1) (xy 50.8 38.1)
+			(xy 55.88 38.1) (xy 50.8 38.1)
 		)
 		(stroke
 			(width 0)
@@ -825,7 +984,7 @@
 	)
 	(rectangle
 		(start 22.86 25.4)
-		(end 116.84 60.96)
+		(end 116.84 62.23)
 		(stroke
 			(width 0)
 			(type default)
@@ -849,7 +1008,6 @@
 		(length 2.54)
 		(shape round)
 		(at 50.8 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -858,7 +1016,7 @@
 		)
 		(uuid "5870816a-16af-402a-99bb-07e700b13274")
 		(property "Netclass" "EXT_5V"
-			(at 51.4985 31.75 0)
+			(at 48.26 29.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -872,7 +1030,6 @@
 		(length 2.54)
 		(shape round)
 		(at 101.6 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -881,7 +1038,7 @@
 		)
 		(uuid "c534d875-8679-4652-83b9-e6ae060336ca")
 		(property "Netclass" "VDD33"
-			(at 102.2985 31.75 0)
+			(at 98.552 29.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -899,10 +1056,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0fdc53a2-57da-4f68-b3c0-7c343cd2e288")
 		(property "Reference" "C2"
-			(at 105.41 41.9099 0)
+			(at 102.108 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -910,11 +1066,11 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 105.41 44.4499 0)
+		(property "Value" "22uF/10V(20%)"
+			(at 101.854 45.212 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left)
 			)
@@ -1101,10 +1257,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "319db5b3-a314-4884-ab9a-644ca2d55834")
 		(property "Reference" "R1"
-			(at 40.64 41.9099 0)
+			(at 38.862 40.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1112,11 +1267,11 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
-			(at 40.64 44.4499 0)
+		(property "Value" "2K(5%)"
+			(at 38.608 45.974 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -1165,16 +1320,15 @@
 	)
 	(symbol
 		(lib_id "AMS1117-3.3:AMS1117-3.3")
-		(at 72.39 40.64 0)
+		(at 71.12 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "64057171-1b84-42a5-b3a3-ff8b1ae6b037")
 		(property "Reference" "U1"
-			(at 72.39 30.48 0)
+			(at 62.484 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1182,15 +1336,15 @@
 			)
 		)
 		(property "Value" "AMS1117-3.3"
-			(at 72.39 33.02 0)
+			(at 66.294 46.99 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
 		(property "Footprint" "SOT229P700X180-4N"
-			(at 72.39 40.64 0)
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1200,7 +1354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 40.64 0)
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1210,7 +1364,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 40.64 0)
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1219,7 +1373,7 @@
 			)
 		)
 		(property "MF" "Advanced Monolithic Systems"
-			(at 72.39 40.64 0)
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1229,7 +1383,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.8 mm"
-			(at 72.39 40.64 0)
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,7 +1393,7 @@
 			)
 		)
 		(property "Package" "SOT-223 Seeed Technology"
-			(at 72.39 40.64 0)
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1249,7 +1403,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 72.39 40.64 0)
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1259,7 +1413,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/AMS1117-3.3/Advanced+Monolithic+Systems/view-part/?ref=eda"
-			(at 72.39 40.64 0)
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1269,7 +1423,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 72.39 40.64 0)
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1279,7 +1433,7 @@
 			)
 		)
 		(property "PARTREV" "N/A"
-			(at 72.39 40.64 0)
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1289,7 +1443,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AMS1117-3.3/Advanced+Monolithic+Systems/view-part/?ref=snap"
-			(at 72.39 40.64 0)
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1299,7 +1453,7 @@
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" "71280"
-			(at 72.39 40.64 0)
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1309,7 +1463,7 @@
 			)
 		)
 		(property "MP" "AMS1117-3.3"
-			(at 72.39 40.64 0)
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1319,7 +1473,7 @@
 			)
 		)
 		(property "Description_1" "\\nSot223/Pkg 1-Amp 3.3-Volt Low Drop Out Voltage Regulatator\\n"
-			(at 72.39 40.64 0)
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1329,7 +1483,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Advanced Monolithic Systems"
-			(at 72.39 40.64 0)
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1339,7 +1493,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 72.39 40.64 0)
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1349,7 +1503,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "AMS1117-3.3"
-			(at 72.39 40.64 0)
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1378,7 +1532,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 49.53 0)
+		(at 38.1 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1387,7 +1541,7 @@
 		(fields_autoplaced yes)
 		(uuid "815268ca-ed49-40be-a791-fa032c2bbc64")
 		(property "Reference" "#PWR01"
-			(at 38.1 55.88 0)
+			(at 38.1 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1396,7 +1550,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 54.61 0)
+			(at 38.1 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1404,7 +1558,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 49.53 0)
+			(at 38.1 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1413,7 +1567,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 49.53 0)
+			(at 38.1 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1422,7 +1576,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 49.53 0)
+			(at 38.1 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1509,6 +1663,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 38.1 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ecb46780-f5d5-4f29-8c90-1f92b27ac69a")
+		(property "Reference" "D1"
+			(at 39.878 48.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RED LED"
+			(at 40.132 51.816 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 38.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c4c078e-c309-4758-b51d-d8a42efd7eda")
+		)
+		(pin "2"
+			(uuid "46a8c855-2520-4a4f-8708-fb46f4c89cfd")
+		)
+		(instances
+			(project ""
+				(path "/8b30f815-a35a-4dbb-8ef1-0ef116f0462d"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 50.8 43.18 0)
 		(unit 1)
@@ -1516,10 +1739,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fb1c7e1f-fca7-4fae-954c-52391f3ee248")
 		(property "Reference" "C1"
-			(at 54.61 41.9099 0)
+			(at 51.308 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1527,11 +1749,11 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 54.61 44.4499 0)
+		(property "Value" "22uF/10V(20%)"
+			(at 51.054 45.466 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left)
 			)
